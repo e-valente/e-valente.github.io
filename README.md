@@ -1,2 +1,2 @@
-# e-valente.github.io
-e-valente website
+# animal-blog
+Animal's Blog repository
