@@ -1,5 +1,5 @@
-animall:
-  # name        : "emanuel"
+emanuel:
+  name        : "emanuel"
   bio         : "I solve problems"
   avatar      : "/assets/img/animall.png"
   links:
