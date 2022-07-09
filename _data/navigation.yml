@@ -4,10 +4,10 @@ main:
     url: /
   - title: "hacking"
     url: /hacking
-  - title: "life"
-    url: /life
-  - title: "fun"
-    url: /fun
+  - title: "tulio"
+    url: /tulio
+  - title: "about"
+    url: /about
 
 #  - title: "About"
 #    url: /about

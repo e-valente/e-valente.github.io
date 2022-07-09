@@ -1,9 +1,9 @@
 ---
-title: fun
+title: about
 layout: post
 author_profile: true
-author: animall
+author: emanuel
 ---
-## Fun
+## About
 
 coming soon ...

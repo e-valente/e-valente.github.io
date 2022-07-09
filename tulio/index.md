@@ -1,9 +1,9 @@
 ---
-title: life
+title: tulio
 layout: post
 author_profile: true
-author: animall
+author: emanuel
 ---
-## Life
+## Tulio
 
 coming soon..
