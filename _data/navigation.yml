@@ -2,8 +2,6 @@
 main: 
   - title: "home"
     url: /
-  - title: "hacking"
-    url: /hacking
   - title: "tulio"
     url: /tulio
 #  - title: "About"
