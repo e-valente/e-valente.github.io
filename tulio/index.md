@@ -1,5 +1,5 @@
 ---
-title: Tulio loves showing off your power
+title: Tulio loves showing off his power
 layout: post
 author_profile: true
 author: emanuel
