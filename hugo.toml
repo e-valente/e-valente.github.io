@@ -1,0 +1,91 @@
+baseURL = "https://blog.e-valente.io/"
+locale = "en-us"
+title = "Emanuel's Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Emanuel Valente"
+  description = "Security engineering, machine learning security, and practical experiments."
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Emanuel Valente"
+    subtitle = "I solve problems"
+    imageUrl = "/assets/img/e-valente-2026.jpeg"
+    imageTitle = "Emanuel Valente"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
+
+    [[params.profileMode.buttons]]
+      name = "Tulio"
+      url = "/tulio/"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/emanuelvalente/"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/emanu_valente"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/e-valente"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:emanuelvalente@gmail.com"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  name = "Tulio"
+  url = "/tulio/"
+  weight = 30
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+
+[[module.mounts]]
+  source = "assets"
+  target = "static/assets"
+
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "data"
+  target = "data"
+
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"

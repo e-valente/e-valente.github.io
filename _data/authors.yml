@@ -1,7 +1,7 @@
 e-valente:
   name        : "Emanuel Valente (e-valente)"
   bio         : "I solve problems"
-  avatar      : "/assets/img/animall.png"
+  avatar      : "/assets/img/e-valente-2026.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -12,4 +12,3 @@ e-valente:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/emanu_valente"
-
