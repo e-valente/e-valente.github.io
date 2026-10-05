@@ -3,6 +3,8 @@ title: "Prompt Injection: Exploring, Preventing & Identifying Langchain Vulnerab
 date: 2023-09-04T12:50:00-03:00
 tags: ["llm", "ml", "mlsec", "langchain", "cve", "prompt-injection"]
 ShowToc: true
+aliases:
+  - "/llm/ml/mlsec/langchain/cve/prompt/injection/2023/09/04/langchain-vulns.html"
 ---
 ## Introduction
 Hey there, cyber enthusiasts! 🚀
