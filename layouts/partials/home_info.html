@@ -1,0 +1,13 @@
+{{- with site.Params.homeInfoParams }}
+<section class="personal-summary">
+  <img class="personal-summary__photo" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "Emanuel Valente" }}" title="{{ .imageTitle }}">
+  <div class="personal-summary__content">
+    <h1>{{ .title | default site.Title | markdownify }}</h1>
+    <div class="personal-summary__bio">
+      {{ $opts := dict "display" "block" }}
+      {{ .content | $.Page.RenderString $opts }}
+    </div>
+    {{ partial "social_icons.html" . }}
+  </div>
+</section>
+{{- end -}}

@@ -10,9 +10,13 @@ enableRobotsTXT = true
 [pagination]
   pagerSize = 10
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   author = "Emanuel Valente"
   description = "Security engineering, machine learning security, and practical experiments."
+  mainSections = ["posts"]
   defaultTheme = "auto"
   disableThemeToggle = false
   ShowReadingTime = true
@@ -20,8 +24,20 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowShareButtons = true
 
+  [params.homeInfoParams]
+    title = "Emanuel Valente"
+    imageUrl = "/assets/img/e-valente-2026.jpeg"
+    imageTitle = "Emanuel Valente"
+    content = """
+Security engineer and researcher working on defensive AI, machine learning security, and detection engineering.
+
+- Principal Cybersecurity Engineer at iFood
+- PhD candidate at the University of São Paulo (USP)
+- Research interests: adversarial ML, malware analysis, and security automation
+"""
+
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Emanuel Valente"
     subtitle = "I solve problems"
     imageUrl = "/assets/img/e-valente-2026.jpeg"
@@ -57,14 +73,24 @@ enableRobotsTXT = true
   weight = 10
 
 [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
+  name = "Archives"
+  url = "/archives/"
   weight = 20
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
 
 [[menu.main]]
   name = "Tulio"
   url = "/tulio/"
-  weight = 30
+  weight = 50
 
 [[module.mounts]]
   source = "assets"
