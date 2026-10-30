@@ -1,7 +1,7 @@
 ---
 title: "Aray: Validating YARA Rules Without Handling Malware"
 date: 2026-08-19T12:00:00-03:00
-tags: ["detection-engineering", "yara", "malware-analysis", "ai-security", "software-engineering", "research"]
+tags: ["detection-engineering", "yara", "malware-analysis", "ai-security", "software-engineering", "research", "blackhat"]
 ShowToc: true
 ---
 

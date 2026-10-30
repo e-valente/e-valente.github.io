@@ -1,7 +1,7 @@
 ---
 title: "DoH Deception: Testing the Robustness of ML-Based Tunnel Detection"
 date: 2024-09-16T12:00:00-03:00
-tags: ["doh", "dns", "adversarial-machine-learning", "mlsec", "network-security", "research"]
+tags: ["doh", "dns", "adversarial-machine-learning", "mlsec", "network-security", "research", "defcon", "bsideslv"]
 ShowToc: true
 math: true
 ---
